@@ -4,6 +4,7 @@ import { TAILWIND_COLORS } from "./src/core/configs/colors"
 
 const config: Config = {
     content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
+    darkMode: "selector",
     theme: {
         screens: {
             sm: "576px",

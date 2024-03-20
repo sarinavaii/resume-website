@@ -1,3 +1,3 @@
-type TColorsType = "blue" | "red" | "green" | "yellow" | "neutral" | (string & NonNullable<unknown>)
+type TColorsType = "khaki" | "purple" | "night" | (string & NonNullable<unknown>)
 
 export default TColorsType
