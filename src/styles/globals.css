@@ -1,0 +1,6 @@
+/* Vendors */
+@import "./vendors/tailwind.css";
+@import "./vendors/mantine.css";
+
+/* Base */
+@import "./base/base.css";

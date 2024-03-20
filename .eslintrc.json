@@ -1,0 +1,31 @@
+{
+    "plugins": ["simple-import-sort"],
+    "extends": ["next/core-web-vitals", "prettier"],
+    "rules": {
+        "simple-import-sort/imports": [
+            "error",
+            {
+                "groups": [
+                    [
+                        "^react$",
+                        "^next",
+                        "^react",
+                        "^W*",
+                        "@(?!(app|partials|atoms|molecules|organisms|templates|core|styles|public))"
+                    ],
+                    ["^@app"],
+                    ["^@templates"],
+                    ["^@partials"],
+                    ["^@organisms"],
+                    ["^@molecules"],
+                    ["^@atoms"],
+                    ["^@core"],
+                    ["^@styles"],
+                    ["^@public"],
+                    ["^\\u0000"],
+                    ["^\\./", "^\\../"]
+                ]
+            }
+        ]
+    }
+}
