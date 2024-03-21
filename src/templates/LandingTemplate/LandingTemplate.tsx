@@ -1,12 +1,14 @@
 "use client"
 
-import { Button, useMantineColorScheme } from "@mantine/core"
+import { Button } from "@mantine/core"
+
+import { useThemeStore } from "@core/services/stores"
 
 const LandingTemplate = () => {
-    const { setColorScheme, clearColorScheme } = useMantineColorScheme()
+    const { changeTheme, theme } = useThemeStore()
     return (
         <div className='h-screen grid place-items-center bg-khaki dark:bg-night'>
-            <Button variant='filled' color='purple' onClick={() => setColorScheme("dark")}>
+            <Button variant='filled' color='purple' onClick={() => changeTheme(theme)}>
                 Howdy Partner!
             </Button>
         </div>
