@@ -14,6 +14,12 @@ const config: Config = {
             "2xl": "1440px",
         },
         colors: { ...TAILWIND_COLORS },
+        extend: {
+            fontFamily: {
+                maven: ["var(--font-maven)"],
+                abril: ["var(--font-abril)"],
+            },
+        },
     },
     plugins: [],
 }
