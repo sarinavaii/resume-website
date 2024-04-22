@@ -1,10 +1,11 @@
-import { HeaderInfo, Intro } from "@organisms/HomeOrganisms"
+import { HeaderInfo, Intro, Resume } from "@organisms/HomeOrganisms"
 
 const HomeTemplate = () => {
     return (
         <>
             <HeaderInfo />
             <Intro />
+            <Resume />
         </>
     )
 }

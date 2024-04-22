@@ -9,7 +9,9 @@ const Intro = () => {
     return (
         <div className='flex flex-col relative sm:mt-12 mt-8'>
             <h1 className='lg:text-7xl md:text-6xl text-5xl capitalize font-bold absolute left-0 right-0'>
-                hello, <br /> i'm salar sari navaii
+                hello, i'm
+                <br />
+                salar sari navaii
             </h1>
             <Image
                 className='w-[400px] max-w-full lg:mt-20 md:mt-16 mt-24'
