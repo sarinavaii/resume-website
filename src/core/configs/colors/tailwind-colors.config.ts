@@ -8,7 +8,7 @@ const TAILWIND_COLORS = {
         DEFAULT: "#191818",
     },
     purple: {
-        DEFAULT: "#6A55C2",
+        DEFAULT: "#DD95AB",
     },
 }
 

@@ -1,11 +1,10 @@
-"use client"
-
-import { HeaderInfo } from "@organisms/HomeOrganisms"
+import { HeaderInfo, Intro } from "@organisms/HomeOrganisms"
 
 const HomeTemplate = () => {
     return (
         <>
             <HeaderInfo />
+            <Intro />
         </>
     )
 }
